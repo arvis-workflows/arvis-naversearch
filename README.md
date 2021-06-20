@@ -8,6 +8,10 @@ Naver is a most famous search engine in Korea.
 This workflow finds words in dictonaries of Naver dictionary and searches contents by Naver search engine. 
 You can use easily to discover Korean contents with the this Arvis workflow.
 
+![](./demo.png)
+
+Works on `linux`, `macos`
+
 ## 🔗 This workflow is converted from [alfred-workflow](https://github.com/Kuniz/alfnaversearch).
 
 * Note that there might be some code change or different actions from the original workflow.

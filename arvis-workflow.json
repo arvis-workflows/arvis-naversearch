@@ -8,6 +8,10 @@
   "webAddress": "https://www.jinukbaek.com/blog/ko/archives/216",
   "enabled": true,
   "defaultIcon": "icon.png",
+  "platform": [
+    "darwin",
+    "linux"
+  ],
   "commands": [
     {
       "type": "scriptFilter",
