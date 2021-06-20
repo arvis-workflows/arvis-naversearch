@@ -7,6 +7,7 @@
   "version": "0.0.1",
   "webAddress": "https://www.jinukbaek.com/blog/ko/archives/216",
   "enabled": true,
+  "defaultIcon": "icon.png",
   "commands": [
     {
       "type": "scriptFilter",

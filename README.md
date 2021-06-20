@@ -8,6 +8,13 @@ Naver is a most famous search engine in Korea.
 This workflow finds words in dictonaries of Naver dictionary and searches contents by Naver search engine. 
 You can use easily to discover Korean contents with the this Arvis workflow.
 
+## 🔗 This workflow is converted from [alfred-workflow](https://github.com/Kuniz/alfnaversearch).
+
+* Note that there might be some code change or different actions from the original workflow.
+
+* Marked original workflow's creator to author.
+
+
 Install workflow
 --------------
  `Naver Search.Arvisworkflow`를 다운로드 받아서 실행한다.
@@ -30,9 +37,8 @@ Usage
 * `nan ...` : Naver Korean-Indonesian Dictionary (인도네시아어 사전)
 
 
-Externel Module
+Externl Module
 --------------
- This workflow used Arvis-workflow more than v0.0.2. Arvis-workflow can find there(https://github.com/deanishe/Arvis-workflow).
  This workflow used alp(A Python Module for Arvis Workflows) module at v0.0.1. It created by Daniel Shannon. 
 
 LICENSE
