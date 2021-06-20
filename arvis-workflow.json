@@ -1,0 +1,250 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+  "creator": "Jinuk Baek",
+  "description": "Naver Search Kit",
+  "name": "Naver Search",
+  "readme": "Autocomplete Workflow for Naver Services",
+  "version": "0.0.1",
+  "webAddress": "https://www.jinukbaek.com/blog/ko/archives/216",
+  "enabled": true,
+  "commands": [
+    {
+      "type": "scriptFilter",
+      "command": "na",
+      "title": "Search Naver for {query}",
+      "subtitle": "",
+      "scriptFilter": "python naver_search.py \"{query}\"",
+      "runningSubtext": "Running",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://search.naver.com/search.naver?ie=utf8&sm=stp_hty&where=se&query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nad",
+      "title": "Search Naver Dedic for {query}",
+      "subtitle": "",
+      "scriptFilter": "python dedic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://dedic.naver.com/#search/all/q={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "naj",
+      "title": "Search Naver Jpdic for {query}",
+      "subtitle": "",
+      "scriptFilter": "python jpdic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://jpdic.naver.com/search.nhn?range=all&q={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "naf",
+      "title": "Search Naver Frdic for {query}",
+      "subtitle": "",
+      "scriptFilter": "python frdic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://frdic.naver.com/search.nhn?query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nae",
+      "title": "Search Naver Endic for {query}",
+      "subtitle": "",
+      "scriptFilter": "python endic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://endic.naver.com/search.nhn?ie=utf8&query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nak",
+      "title": "Search Naver Korean for {query}",
+      "subtitle": "",
+      "scriptFilter": "python krdic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://krdic.naver.com/search.nhn?kind=all&query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nai",
+      "title": "Search Naver Italian for {query}",
+      "subtitle": "",
+      "scriptFilter": "python itdic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://itdic.naver.com/search.nhn?query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nac",
+      "title": "Search Naver Cndic for {query}",
+      "subtitle": "",
+      "scriptFilter": "python cndic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://cndic.naver.com/search.nhn?ie=utf8&query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nah",
+      "title": "Search Naver Hanja for {query}",
+      "subtitle": "",
+      "scriptFilter": "python hanja_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://hanja.naver.com/search?ie=utf8&query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nas",
+      "title": "Search Naver Spanish for {query}",
+      "subtitle": "",
+      "scriptFilter": "python spdic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://spdic.naver.com/search.nhn?query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nar",
+      "title": "Search Naver Russian for {query}",
+      "subtitle": "",
+      "scriptFilter": "python rudic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://rudic.naver.com/search.nhn?query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nav",
+      "title": "Search Naver Vietnamese for {query}",
+      "subtitle": "",
+      "scriptFilter": "python vndic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://vndic.naver.com/search.nhn?query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nat",
+      "title": "Search Naver Thai for {query}",
+      "subtitle": "",
+      "scriptFilter": "python thdic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://thdic.naver.com/search.nhn?query={query}"
+        }
+      ]
+    },
+    {
+      "type": "scriptFilter",
+      "command": "nan",
+      "title": "Search Naver Indonesian for {query}",
+      "subtitle": "",
+      "scriptFilter": "python iddic_naver_search.py \"{query}\"",
+      "runningSubtext": "Loading...",
+      "withspace": true,
+      "argType": "required",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "type": "open",
+          "target": "http://iddic.naver.com/search.nhn?query={query}"
+        }
+      ]
+    }
+  ]
+}
