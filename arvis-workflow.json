@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
   "creator": "Jinuk Baek",
   "description": "Naver Search Kit",
-  "name": "Naver Search",
+  "name": "arvis-naver-search",
   "readme": "Autocomplete Workflow for Naver Services",
   "version": "0.0.1",
   "webAddress": "https://www.jinukbaek.com/blog/ko/archives/216",
